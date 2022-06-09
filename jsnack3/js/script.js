@@ -9,9 +9,7 @@ for(let i = 0; i < 10; i++) {
 
     let userNumber =  parseInt(prompt(' Inserisci un numero'));
 
-    let singleNumber = parseInt(userNumber[i]);
-
-     somNumber += singleNumber;
+     somNumber += userNumber;
 }
 
 // Stampo tutti i numeri inseriti
